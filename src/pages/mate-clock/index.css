@@ -1,0 +1,119 @@
+page {
+    background-color:#79a89f ;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #79a89f;
+    font-size: small;
+}
+
+.clock{
+    width: 80vw;
+    margin-top: 10vh;
+    text-align: center;
+    border-top: 22px solid #a88664;
+    border-left: 16px solid #a88664;
+    border-right: 18px solid #a88664;
+    border-bottom: 18px solid #a88664;
+    background-color: #4d847a;
+    border-radius: 20px;
+}
+.header{
+    display: flex;
+    padding: 15px;
+}
+.dash{
+    display: flex;
+    justify-content: space-around;
+}
+.dot{
+    width: 70px; 
+    height: 8px;
+    background-color: #7fafa6;
+    border-radius: 5px;
+}
+.click{
+    width: 160px;
+    height:46px;
+    line-height: 46px;
+    color: rgb(9, 83, 58);
+    background-color: #97ccc2;
+    border-radius: 20px;
+}
+.my{
+    background-color: #97ccc2;
+    border-radius: 50%;
+    width: 92px;
+    height: 92px;
+    margin-right: 20px;
+}
+.my-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.mydetail{
+    color: #77a69d;
+    margin-top: 5px;
+}
+.main-1{
+    display: flex;
+    justify-content: center;
+    margin: 45px 32px 5px 50px;
+    
+}
+.three{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 120px;
+    align-items: center;
+}
+.circle-1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #97ccc2;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+.circle-2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #79a89f;
+}
+.one{
+    margin-top: 24px;
+}
+.line{
+    color: #77a69d;
+    font-size:medium;
+}
+.main-4{
+    line-height: 180%;
+    margin-bottom: 38px;
+    margin-top: 18px;
+}
+.desk image{
+    height: 27vh;
+    width: 88vw;
+}
+.success{
+    width: 92px;
+    height: 92px;
+    margin-top: 36px;
+}
+.btn{
+    background-color: #ac9b8a;
+    border-radius: 40px ;
+    margin-bottom: 4vh;
+    color: aliceblue;
+    line-height: 66px;
+}
