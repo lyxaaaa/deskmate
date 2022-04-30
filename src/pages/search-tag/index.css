@@ -1,0 +1,147 @@
+page{
+    background-color: #79a89f;
+}
+.back{
+    position: absolute;
+    top:10vh;
+    left: 4vw;
+    height: 70px;
+    width: 70px;
+}
+.backImg{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin-left: -30px;
+}
+.search{
+    position: absolute;
+    top:10vh;
+    right: 5vw;
+    height: 72px;
+    width: 604px;
+    background-color: #97CCC2;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+}
+.searchImg{
+    margin-left: 2vw;
+    height: 48px;
+    width: 48px;
+}
+.input{
+    position: absolute;
+    top:10.6vh;
+    right: 8vw;
+    width: 500px;
+    color: #FFFFFF;
+}
+.hotlist{
+    /* display: none; */
+    position:absolute;
+    top:16vh;
+    left:4vw;
+    background-color: #79A89F;
+    color: #FFFFFF;
+    height: 83vh;
+}
+.hot{
+    padding: 1.5vh 0;
+    font-size: 40px;
+}
+.hotlistItem{
+    padding:2vh 0 1vh 0;
+    width:90vw;
+}
+.devide{
+    width:90vw;
+    height: 6px;
+    border-radius: 3px;
+    background-color:#97CCC2;
+}
+.item{
+    z-index: 100;
+    width: 648px;
+    background-color: #4D847A;
+    border: 14px solid #A88664;
+    border-radius: 36px;
+    margin: 0 auto 2vh auto;
+    padding-bottom: 10px;
+}
+.top{
+    display: flex;
+    padding: 10px 0 10px 0;
+    justify-content: space-evenly;
+    margin: 1vh auto;
+}
+.head{
+    width: 130px;
+    height: 130px;
+    background-color: #97CCC2;
+    border-radius: 50%;
+}
+.info{
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.userName{
+    width: 10px;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.school,.majorGrade{
+    color: #97CCC2;
+}
+.line{
+    width: 550px;
+    height: 12px;
+    background-color: #6EA399;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+.tags{
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.tag1,.tag2,.tag3,.tag4,.tag5{
+    background-color: #79A89F;
+    margin: 3vw 3vw 2vw 0;
+    padding: 2vw;
+    border-radius: 24px;
+    color: #FFFFFF;
+}
+.tag1{
+    background-color: #8AB6EA;
+}
+.tag2{
+    background-color: #9EEFBD;
+}
+.tag3{
+    background-color: #EFB79E;
+}
+.tag4{
+    background-color: #EFCD9E;
+}
+.tag5{
+    background-color: #BEA3EA;
+}
+.motto{
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+    width: 550px;
+    color: #97CCC2;
+}
+.showmore{
+    margin-top: 20vh;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+}
